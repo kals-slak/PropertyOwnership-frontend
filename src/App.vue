@@ -18,6 +18,7 @@
       <div class="navLinks">
         <el-menu-item index="1"><router-link to="/">Home</router-link></el-menu-item>
         <el-menu-item index="2"><router-link to="/buy">Buy</router-link></el-menu-item>
+        <el-menu-item index="3"><router-link to="/sell">Sell</router-link></el-menu-item>
       </div>
       <div class="conn">
         <el-button style="margin-top: 8%;" type="primary">Connect</el-button>
@@ -29,6 +30,7 @@
      <div class="burgerLinks">
         <el-menu-item index="1"><router-link to="/">Home</router-link></el-menu-item>
         <el-menu-item index="2"><router-link to="/buy">Buy</router-link></el-menu-item>
+        <el-menu-item index="3"><router-link to="/sell">Sell</router-link></el-menu-item>
      </div>    
       
     </el-menu>
@@ -38,6 +40,7 @@
   
   <script setup>
   import { ref } from 'vue';
+ 
   
   
   const activeIndex = ref('1');
